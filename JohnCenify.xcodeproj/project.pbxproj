@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2297D2FD63E12405FC381342 /* Pods_JohnCenify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D241F4E1461E78C69EF95E /* Pods_JohnCenify.framework */; };
+		79117E5B1C79B5CA006DC3EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79117E5A1C79B5CA006DC3EB /* Assets.xcassets */; };
+		79117E5F1C79CDDF006DC3EB /* john_cena_meme.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 79117E5E1C79CD0A006DC3EB /* john_cena_meme.m4v */; };
+		79E6180C1C7857D300F59AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E6180B1C7857D300F59AB3 /* AppDelegate.swift */; };
+		79E6180E1C7857D300F59AB3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E6180D1C7857D300F59AB3 /* CameraViewController.swift */; };
+		79E618111C7857D300F59AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E6180F1C7857D300F59AB3 /* Main.storyboard */; };
+		79E618161C7857D300F59AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E618141C7857D300F59AB3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45E26DA89FA7B6E40F441144 /* Pods-JohnCenify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JohnCenify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JohnCenify/Pods-JohnCenify.debug.xcconfig"; sourceTree = "<group>"; };
+		79117E5A1C79B5CA006DC3EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79117E5E1C79CD0A006DC3EB /* john_cena_meme.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = john_cena_meme.m4v; sourceTree = "<group>"; };
+		79E618081C7857D300F59AB3 /* JohnCenify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JohnCenify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E6180B1C7857D300F59AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79E6180D1C7857D300F59AB3 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		79E618101C7857D300F59AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79E618151C7857D300F59AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79E618171C7857D300F59AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91988D721286BDFEF0A738B3 /* Pods-JohnCenify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JohnCenify.release.xcconfig"; path = "Pods/Target Support Files/Pods-JohnCenify/Pods-JohnCenify.release.xcconfig"; sourceTree = "<group>"; };
+		92D241F4E1461E78C69EF95E /* Pods_JohnCenify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JohnCenify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E618051C7857D300F59AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2297D2FD63E12405FC381342 /* Pods_JohnCenify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E617FF1C7857D300F59AB3 = {
+			isa = PBXGroup;
+			children = (
+				79E6180A1C7857D300F59AB3 /* JohnCenify */,
+				79E618091C7857D300F59AB3 /* Products */,
+				B6FAA8D802F04E1661EA63C2 /* Pods */,
+				A9EBE4C6FC03E64928A27BF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79E618091C7857D300F59AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E618081C7857D300F59AB3 /* JohnCenify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E6180A1C7857D300F59AB3 /* JohnCenify */ = {
+			isa = PBXGroup;
+			children = (
+				79E6180B1C7857D300F59AB3 /* AppDelegate.swift */,
+				79E6180D1C7857D300F59AB3 /* CameraViewController.swift */,
+				79E6180F1C7857D300F59AB3 /* Main.storyboard */,
+				79117E5E1C79CD0A006DC3EB /* john_cena_meme.m4v */,
+				79117E5A1C79B5CA006DC3EB /* Assets.xcassets */,
+				79E618141C7857D300F59AB3 /* LaunchScreen.storyboard */,
+				79E618171C7857D300F59AB3 /* Info.plist */,
+			);
+			path = JohnCenify;
+			sourceTree = "<group>";
+		};
+		A9EBE4C6FC03E64928A27BF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92D241F4E1461E78C69EF95E /* Pods_JohnCenify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6FAA8D802F04E1661EA63C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45E26DA89FA7B6E40F441144 /* Pods-JohnCenify.debug.xcconfig */,
+				91988D721286BDFEF0A738B3 /* Pods-JohnCenify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E618071C7857D300F59AB3 /* JohnCenify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E6181A1C7857D300F59AB3 /* Build configuration list for PBXNativeTarget "JohnCenify" */;
+			buildPhases = (
+				4BC0DBAE5B63488F670B72A4 /* Check Pods Manifest.lock */,
+				79E618041C7857D300F59AB3 /* Sources */,
+				79E618051C7857D300F59AB3 /* Frameworks */,
+				79E618061C7857D300F59AB3 /* Resources */,
+				CD14CD052C83454543C819E6 /* Embed Pods Frameworks */,
+				83513861847B94998E2BBE1F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JohnCenify;
+			productName = JohnCenify;
+			productReference = 79E618081C7857D300F59AB3 /* JohnCenify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E618001C7857D300F59AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Richard Su";
+				TargetAttributes = {
+					79E618071C7857D300F59AB3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y3274JJY7E;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 79E618031C7857D300F59AB3 /* Build configuration list for PBXProject "JohnCenify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E617FF1C7857D300F59AB3;
+			productRefGroup = 79E618091C7857D300F59AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E618071C7857D300F59AB3 /* JohnCenify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E618061C7857D300F59AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79117E5F1C79CDDF006DC3EB /* john_cena_meme.m4v in Resources */,
+				79E618161C7857D300F59AB3 /* LaunchScreen.storyboard in Resources */,
+				79117E5B1C79B5CA006DC3EB /* Assets.xcassets in Resources */,
+				79E618111C7857D300F59AB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BC0DBAE5B63488F670B72A4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83513861847B94998E2BBE1F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JohnCenify/Pods-JohnCenify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD14CD052C83454543C819E6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JohnCenify/Pods-JohnCenify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E618041C7857D300F59AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E6180E1C7857D300F59AB3 /* CameraViewController.swift in Sources */,
+				79E6180C1C7857D300F59AB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79E6180F1C7857D300F59AB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E618101C7857D300F59AB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79E618141C7857D300F59AB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E618151C7857D300F59AB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79E618181C7857D300F59AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79E618191C7857D300F59AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79E6181B1C7857D300F59AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E26DA89FA7B6E40F441144 /* Pods-JohnCenify.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JohnCenify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JohnCenify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		79E6181C1C7857D300F59AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91988D721286BDFEF0A738B3 /* Pods-JohnCenify.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JohnCenify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.JohnCenify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E618031C7857D300F59AB3 /* Build configuration list for PBXProject "JohnCenify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E618181C7857D300F59AB3 /* Debug */,
+				79E618191C7857D300F59AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E6181A1C7857D300F59AB3 /* Build configuration list for PBXNativeTarget "JohnCenify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E6181B1C7857D300F59AB3 /* Debug */,
+				79E6181C1C7857D300F59AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E618001C7857D300F59AB3 /* Project object */;
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CameraViewController" customModule="JohnCenify" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dr3-Kj-ove">
+                                <rect key="frame" x="220" y="202" width="160" height="196"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="EOs-9Q-GYB"/>
+                                    <constraint firstAttribute="width" secondItem="dr3-Kj-ove" secondAttribute="height" multiplier="560:689" id="f6K-4J-6ml"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="button"/>
+                                <connections>
+                                    <action selector="takePicture:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7NA-IM-oUD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfF-re-e5k">
+                                <rect key="frame" x="20" y="36" width="560" height="152.5"/>
+                                <string key="text">John
+Cenify</string>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="75"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap on Cena's face and make an angry face!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3IY-Lv-fs7">
+                                <rect key="frame" x="20" y="513" width="560" height="57"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="28"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anger Level:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ke-gm-f7B">
+                                <rect key="frame" x="259" y="414" width="82" height="12.5"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7Ke-gm-f7B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G9y-dK-ysD"/>
+                            <constraint firstItem="vfF-re-e5k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HZq-8p-hr6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3IY-Lv-fs7" secondAttribute="bottom" constant="30" id="Irw-Ur-QkU"/>
+                            <constraint firstItem="7Ke-gm-f7B" firstAttribute="top" secondItem="dr3-Kj-ove" secondAttribute="bottom" constant="16" id="MBb-Cw-uFn"/>
+                            <constraint firstItem="vfF-re-e5k" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="NeT-5g-1a3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3IY-Lv-fs7" secondAttribute="trailing" id="QOW-eh-WJ9"/>
+                            <constraint firstItem="dr3-Kj-ove" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Swd-KR-tYG"/>
+                            <constraint firstItem="3IY-Lv-fs7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yac-LJ-Kpd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vfF-re-e5k" secondAttribute="trailing" id="ZS6-mJ-eCX"/>
+                            <constraint firstItem="dr3-Kj-ove" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o9N-0B-7ij"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="angerLevelLabel" destination="7Ke-gm-f7B" id="5dt-81-8zm"/>
+                        <outlet property="directionsLabel" destination="3IY-Lv-fs7" id="e9e-3J-i03"/>
+                        <outlet property="faceButton" destination="dr3-Kj-ove" id="QbW-ys-jX3"/>
+                        <outlet property="titleLabel" destination="vfF-re-e5k" id="roQ-2g-EP5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325" y="364"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="button" width="560" height="689"/>
+    </resources>
+</document>

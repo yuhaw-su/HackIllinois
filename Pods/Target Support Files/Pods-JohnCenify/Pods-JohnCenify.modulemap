@@ -1,0 +1,6 @@
+framework module Pods_JohnCenify {
+  umbrella header "Pods-JohnCenify-umbrella.h"
+
+  export *
+  module * { export * }
+}
