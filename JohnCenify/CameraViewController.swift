@@ -154,9 +154,11 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
 	func imagePickerControllerDidCancel(picker: UIImagePickerController)
 	{
 		print("User canceled image")
+		titleLabel.text = "John Cenify"
+		directionsLabel.text = "Tap on Cena and make an angry face!"
+		angerLevelLabel.hidden = true
 		dismissViewControllerAnimated(true, completion:
 		{
-        // Anything you want to happen when the user selects cancel
 		})
 	}
 	
